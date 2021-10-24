@@ -282,12 +282,14 @@ body {
 .tabs-link.active{
   color: #F37321;
 }
-.tabs-content{
+.tabs-contant{
   display: flex;
+  justify-content: space-between;
   margin: -15px;
 }
 .tabs-card {
   max-width: 270px;
+  height: 471px;
   border-radius: 20px;
   overflow: hidden;
   background-color: white;
